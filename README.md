@@ -1,0 +1,1 @@
+This repository demonstrates a subtle type-related bug in TypeScript.  The `add` function is declared to accept two numbers, but it doesn't prevent a string from being passed in.  The type error only surfaces at runtime, highlighting a limitation of TypeScript's static type checking in cases where JavaScript's loose typing takes over.
